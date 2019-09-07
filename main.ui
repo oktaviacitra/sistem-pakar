@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1032</width>
+    <height>748</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="buang_air_besar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>441</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda sering mengalami buang air besar (lebih dari dua kali)?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="berak_encer">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>261</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda mengalami berak encer?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="berak_berdarah">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda mengalami berak berdarah?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="lesu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>331</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda merasa lesu dan tidak bergairah?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tidak_selera_makan">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda tidak selera makan?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mual_muntah">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>431</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda sering merasa mual dan muntah (lebih dari satu kali)?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="sakit_di_perut">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda merasa sakit di bagian perut?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tekanan_darah_rendah">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah tekanan darah anda rendah?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="pusing">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda merasa pusing?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="pingsan">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda mengalami pingsan?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="suhu_badan_tinggi">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah suhu badan anda tinggi?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="luka_badan">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda memiliki luka di bagian tertentu?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="anggota_badan_tidak_bisa_gerak">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>421</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda tidak dapat menggerakkan anggota badan tertentu?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="makan_sesuatu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>460</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda pernah memakan sesuatu?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="makan_daging">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda memakan daging?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="makan_jamur">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>520</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda memakan jamur?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="makan_makanan_kaleng">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>550</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda memakan makanan kaleng?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="beli_susu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>580</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda membeli susu?</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="makan_susu">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>610</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Apakah anda memakan susu?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tittle">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>0</y>
+      <width>351</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>INFEKSI SISTEM GASTRO-USUS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submit_button">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>650</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PROSES</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subtitle_pertanyaan">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pertanyaan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subtitle_hasil">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>40</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hasil</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="staphylococcus_result">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>70</y>
+      <width>361</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Staphylococcus Aureus :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="jamur_result">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>100</y>
+      <width>391</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jamur Beracun :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="salmonellae_result">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>130</y>
+      <width>401</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salmonellae :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="clostridium_result">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>160</y>
+      <width>411</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clostridium Botulinum :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="campylobacter_result">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>190</y>
+      <width>411</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Campylobacter :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="diagnosa_result">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>220</y>
+      <width>421</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Diagnosa Infeksi :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="treshold_box">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>650</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subtitle_treshold">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>660</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Treshold</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1032</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
